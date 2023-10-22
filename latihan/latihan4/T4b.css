@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Poppins:wght@600&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -59,27 +66,18 @@ body {
     position: relative;
 }
 
-.instagram {
-    width: 200px;
-    height: 200px;
-    background-image: url(TWITTER.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-size: 80px;
-    text-indent: -9999px;
-    position: absolute;
-    right: -126px;
-    top:0px;
-}
-
 .header {
-    padding: 20px;
-    padding-bottom: 10;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .header .judul {
     font-size: 40px;
     font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: poppins;
+    color: black;
 }
 
 .header ul li {
@@ -98,11 +96,27 @@ body {
     background-color: lightskyblue;
 }
 
+.header nav {
+    background-color: rgb(168, 168, 168);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+.header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    font-family: kanit;
+}
+
 .hero {
     height: 280px;
-    background-image: url(../latihan3/img/FotoBaru.jpeg);
+    background-image: url(../latihan3/img/Nissan.jpg);
     background-size: cover;
-    background-position: 0 -100px;
+    background-position: 0 -145px;
     border-top: 5px solid lightskyblue;
     border-bottom: 5px solid red;
 }
@@ -118,17 +132,6 @@ body {
     margin-top: -5px;
 }
 
-.main .penulis {
-    font-size: 11px;
-    margin-bottom: -5px;
-    
-}
-
-.main .penulis a {
-    color: salmon;
-    text-decoration: none;
-}
-
 .main p {
     margin-bottom: 20px;
     font-size: 14px;
@@ -139,11 +142,17 @@ body {
 }
 
 .main h2 {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
+    /* text-align: center; */
+    margin-bottom: 5px;
 }
 
+.main img {
+    width: 200px;
+
+}
 
 .footer {
     background-color: #333;
@@ -154,21 +163,4 @@ body {
     color: #eaeaea;
     text-align: center;
     font-size: 12px;
-}
-
-/* clear */
-
-.cf:before,
-.cf:after {
-    content: " "; 
-    display: table; 
-}
-
-.cf:after {
-    clear: both;
-}
-
-
-.cf {
-    zoom: 1;
 }
