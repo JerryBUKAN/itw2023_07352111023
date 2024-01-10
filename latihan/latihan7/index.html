@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDOFC</title>
+    <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Garasi Drift</h2>
+                <p class="sub-heading">Otomotif</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 170K</h4>
+                <p class="item">Kaos Gundam</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 200k</h4>
+                <p class="item">Kaos Nissan</p>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>GARASI DRIFT OFC</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">GALLERY</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🏎️</div>
+                <h3>Car</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius natus unde, perferendis autem optio!</p>
+            </div>
+            <div class="service">
+                <div class="icon">🌆</div>
+                <h3>Event</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nam ad minus veritatis consectetur quam.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🎙️</div>
+                <h3>Podcast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolores, labore corrupti voluptatum nihil nostrum.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🎁</div>
+                <h3>Giveaway</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempore odio nemo consequuntur voluptatem magnam.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="/latihan/latihan7/img/42bbaa05-aee4-40f6-91e3-a594f8673272.jfif" alt="">
+            <img src="/latihan/latihan7/img/MONALISA S15 BY GARASI DRIFT.jfif" alt="">
+            <img src="/latihan/latihan7/img/Garasi Drift Wall And Art Print.jfif" alt="">
+            <img src="/latihan/latihan7/img/S15 vector.jfif" alt="">
+            <img src="/latihan/latihan7/img/S15 Wannabe.jfif" alt="">
+            <img src="/latihan/latihan7/img/S15 Vertex Edge.jfif" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>
